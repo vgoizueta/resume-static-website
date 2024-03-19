@@ -71,17 +71,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-img {
-  border-radius: 50%;
-}
-
-.avatar {
-  vertical-align: middle;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
-
 /* Basic */
 
 	@-ms-viewport {
@@ -2620,9 +2609,20 @@ img {
 			width: 100%;
 		}
 
-			.image.main img {
+		.image.main img {
 				width: 100%;
-			}
+		}
+
+		img {
+			  border-radius: 50%;
+		}
+
+		.avatar {
+ 			vertical-align: middle;
+  			width: 200px;
+ 			height: 200px;
+  			border-radius: 50%;
+		}
 
 /* List */
 
