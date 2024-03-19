@@ -3144,24 +3144,6 @@ input, select, textarea {
 
 /* Social Menu */
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: #e3edf7;
-}
-
-h1 {
-  font-family: sans-serif;
-  font-weight: normal;
-  font-size: 25px;
-  letter-spacing: 4px;
-  padding: 200px 0 100px;
-  color: #555;
-  text-align: center;
-}
 
 .social-media {
   display: flex;
