@@ -71,6 +71,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+img {
+  border-radius: 50%;
+}
+
 /* Basic */
 
 	@-ms-viewport {
