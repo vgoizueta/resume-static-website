@@ -12,7 +12,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="https://unpkg.com/feather-icons"></script>
+		<link rel="stylesheet" href="./social-media-icons.css">
+		<script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
 		
 	</head>
 	<body class="is-preload">
@@ -40,12 +41,24 @@
 						<div class="inner">
 							<img src="images/me.png" alt="Avatar" class="avatar">
 							<h1>Victor James Goizueta</h1>
-							<h3>Fort Lauderdale, Florida</h3>
+							<h3>Fort Lauderdale, Florida · (305) 213-5619 ·
+								<a href="mailto:Vgoizueta@gmail.com">VGoizueta@gmail.com</a></h3>
 							<p>Words Go here</p>
-							<p> <div class="counter-number">Couldn't
-								read the counter</div></p>
-							<ul class="actions"> <br>
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
+
+							<div class="social-menu">
+								<ul>
+									<li><a href="https://github.com/vgoizueta" target="blank"><i class="fab fa-github"></i></i></a></li>
+									<li><a href="https://www.linkedin.com/in/victor-goizueta/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+								</ul>
+
+							</div>
+
+
+							<h3> 
+								<div class="counter-number">Couldn't
+								read the counter</div>
+							</h3>
+
 							</ul>
 						</div>
 					</section>
@@ -57,12 +70,6 @@
 								<div class="inner">
 									<h2>About me</h2>
 									<p>Fluent in English and Spanish. Excel in complex, fast-paced, and high-pressure environments. A solution-oriented individual with unwavering dedication, consistently recognized amongst upper leadership and peers as a collaborator known for personal and professional integrity. Self-driven and sufficient to work remotely while tracking and maintaining professional, clear, and concise communication to deliver expectations. Has consistently demonstrated abilities to adapt, execute, and troubleshoot to deliver customer solutions and contribute to company goals.</p>
-										
-											<ul>
-												<a href="https://github.com/vgoizueta" target="blank"><i data-feather="github"></i></i></a>
-												<a href="https://www.linkedin.com/in/victor-goizueta/" target="blank"><i data-feather="linkedin"></i></i></a>
-												<a href="mailto:vgoizueta@gmail.com" target="blank"><i data-feather="mail"></i></i></a>
-											</ul>
 									    	
 										
 								</div>
@@ -75,21 +82,22 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Technical Projects</h2>
-									<h3>Hosted a Static Resume Website on AWS </h3>
+									<h3>Static Resume Website (AWS) </h3>
 									<ul>
 										<li>Created a resume website using HTML, CSS, and Java using Visual Code Studio and hosted using AWS S3</li>
-										<li>Point a custom DNS domain name using AWS Cloudfront and Route 53</li>
-										<li>Obtained a SSL certificate using AWS Cloudfront and Certificate Manager	</li>
+										<li>Pointed a custom DNS domain name using AWS Cloudfront and Route 53</li>
+										<li>Obtained a SSL certificate using AWS Cloudfront, Route 53, and Certificate Manager	</li>
 										<li>Created a custom page counter serverless application using a NoSQL Database (DynamoDB) and AWS Lambda using Python code	</li>
 
 									</ul>
 									<hr />
-									<h3>Dog Match Game (AWS) </h3>
-									<p>Created a dog match game hosted on github using code AWS code Pipeline </br>
-									<a href="http://my-dog-game-victor-goizueta.s3-website.us-east-2.amazonaws.com/">Link to Game</a>
-									</p>
-									<ul class="actions">
-									
+									<a href="https://main.d17o6cmykfpqul.amplifyapp.com/"><h3><u>End-to-End Serverless Web Application (AWS) </u></h3></a>
+									<ul>
+										<li>Used AWS Amplify to hosts static web resources including HTML, CSS, JavaScript</li>
+										<li>Used Amazon Cognito to provide user management and authentication functions to secure the backend API</li>
+										<li>Created a NoSQL Database (DynamoDB) to provide a persistence layer where data can be stored by the API's Lambda function.</li>
+										<li>Use Amazon API Gateway to expose the Lambda function to AWS Amplify as a RESTful API</li>
+
 									</ul>
 								</div>
 							</div>
