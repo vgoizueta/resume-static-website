@@ -187,4 +187,15 @@
 				}
 			});
 
+	// Counter
+	const counter = document.querySelector(".counter-number");
+	async function updateCounter() {
+		let response = await fetch(
+			"https://jlboix2epqdp6ruhsxpbv3z7le0tdezh.lambda-url.us-east-1.on.aws/"
+		);
+		let data = await response.json();
+		counter.innerHTML = `Number of Page Views: ${data}`;
+	}
+	updateCounter(); 
+
 })(jQuery);

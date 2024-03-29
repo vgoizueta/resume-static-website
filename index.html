@@ -12,7 +12,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/feather-icons"></script>
 		
 	</head>
 	<body class="is-preload">
@@ -40,7 +40,10 @@
 						<div class="inner">
 							<img src="images/me.png" alt="Avatar" class="avatar">
 							<h1>Victor James Goizueta</h1>
+							<h3>Fort Lauderdale, Florida</h3>
 							<p>Words Go here</p>
+							<p> <div class="counter-number">Couldn't
+								read the counter</div></p>
 							<ul class="actions"> <br>
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul>
@@ -54,12 +57,13 @@
 								<div class="inner">
 									<h2>About me</h2>
 									<p>Fluent in English and Spanish. Excel in complex, fast-paced, and high-pressure environments. A solution-oriented individual with unwavering dedication, consistently recognized amongst upper leadership and peers as a collaborator known for personal and professional integrity. Self-driven and sufficient to work remotely while tracking and maintaining professional, clear, and concise communication to deliver expectations. Has consistently demonstrated abilities to adapt, execute, and troubleshoot to deliver customer solutions and contribute to company goals.</p>
-										<div class="social-menu">
+										
 											<ul>
-												<a href="https://github.com/vgoizueta" target="blank"><i class="fab fa-github"></i></i></a>
-												<a href="https://www.linkedin.com/in/victor-goizueta/" target="blank"><i class="fab fa-linkedin-in"></i></a>
-											
-									    	</div>
+												<a href="https://github.com/vgoizueta" target="blank"><i data-feather="github"></i></i></a>
+												<a href="https://www.linkedin.com/in/victor-goizueta/" target="blank"><i data-feather="linkedin"></i></i></a>
+												<a href="mailto:vgoizueta@gmail.com" target="blank"><i data-feather="mail"></i></i></a>
+											</ul>
+									    	
 										
 								</div>
 							</div>
@@ -71,8 +75,14 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Technical Projects</h2>
-									<h3>Resume Website (AWS) </h3>
-									<p>Created a resume website page using Static Hosting on AWS S3 Buckets.</p>
+									<h3>Hosted a Static Resume Website on AWS </h3>
+									<ul>
+										<li>Created a resume website using HTML, CSS, and Java using Visual Code Studio and hosted using AWS S3</li>
+										<li>Point a custom DNS domain name using AWS Cloudfront and Route 53</li>
+										<li>Obtained a SSL certificate using AWS Cloudfront and Certificate Manager	</li>
+										<li>Created a custom page counter serverless application using a NoSQL Database (DynamoDB) and AWS Lambda using Python code	</li>
+
+									</ul>
 									<hr />
 									<h3>Dog Match Game (AWS) </h3>
 									<p>Created a dog match game hosted on github using code AWS code Pipeline </br>
@@ -90,7 +100,7 @@
 					<section id="three" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>Work History</h2>
-							<h3>Sr. Audio Visual & Technical Support Technician</h3>
+							<h3>Sr. Audio Visual & Desktop Support Technician</h3>
 							<h4>University of Miami Miller School of Medicine, October 2022 - Present</h4>
 								<ul>
 									<li>IAM, System Administration and lead technical support technician for Elentra online learning platform, handling over 50 ServiceNow tickets per month in a timely manner and to client satisfaction</li>
@@ -130,8 +140,8 @@
 							<h2>Certifications</h2>
 								<ul>
 									<li>Audinate: Dante A/V Networking Level 2</li>
-									<li>Microsoft Certified: AI-900 Microsoft Azure AI Fundamentals</li>
-									<li>Microsoft Certified: AZ-900 Microsoft Azure Fundamentals</li>
+									<li>Microsoft: AI-900 Azure AI Fundamentals</li>
+									<li>Microsoft: AZ-900 Azure Fundamentals</li>
 								</ul>
 								<hr />
 							<h2>Education</h2>
@@ -139,7 +149,7 @@
 								<h4>Music Production and Music Bussiness</h4>
 								<p>Berklee College of Music</p>
 							<br>
-							<h3>Associates of Arts (AA)</h3>
+								<h3>Associates of Arts (AA)</h3>
 								<h4>Electrical Engineering</h4>
 								<p>Miami Dade College</p>
 							
@@ -159,6 +169,9 @@
 			</footer>
 
 		<!-- Scripts -->
+		<script>
+			feather.replace();
+		  </script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
